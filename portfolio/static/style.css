@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+nav a:hover {
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+}
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fafafa;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #444;
+}
+
+section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #444;
+}
+
+section ul {
+    font-size: 1.1em;
+    color: #444;
+}
+
+#about p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #444;
+}
+
+#skills p {
+    font-size: 1.1em;
+    margin: 5px 0 15px 0;
+}
+
+#professional ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+#achievements ul li {
+    font-size: 1em;
+    margin: 12px 0;
+}
+
+#contacts p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+footer a {
+    font-size: 1.1em;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+button, .btn {
+    background: #ffd700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+button:hover, .btn:hover {
+    background: #333;
+    color: #ffd700;
+}
